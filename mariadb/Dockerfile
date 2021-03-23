@@ -1,0 +1,3 @@
+FROM mariadb
+WORKDIR /var/www
+EXPOSE 3306
