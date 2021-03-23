@@ -2,7 +2,9 @@
 
 Ready to use LEMP docker Stack
 
-Use 
+First Use 
+
+Create .env file using [example](https://github.com/geoffreygirou/Docker-Basic-LEMP-Stack/blob/master/.env.example)
 
 ```shell 
 docker-compose up --build -d
@@ -10,7 +12,7 @@ docker-compose up --build -d
 
 Visit : [localhost](http://127.0.0.1:80)
 
-Or set up hosts config according to nginx server name.
+Or : set up hosts config according to nginx server name.
 
 Name          | Version    | Port
 --------------|------------|------
